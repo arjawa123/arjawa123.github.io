@@ -52,9 +52,15 @@ body {
 }
 
 .image {
-  height: 140px;
+  min-height: 140px;
   border-radius: 8px;
   margin-bottom: 12px;
+  position: relative;
+}
+
+.image img {
+  width: 100%;
+  border-radius: 8px;
 }
 
 /* Skeleton */
@@ -111,4 +117,25 @@ body {
   padding: 16px;
   color: var(--muted);
   font-size: 13px;
+}
+
+/* Container untuk tag */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+/* Gaya untuk setiap label tag */
+.tag {
+  background: #1e293b; /* Warna latar gelap agar serasi */
+  color: var(--accent); /* Warna teks biru muda sesuai tema */
+  font-size: 11px;
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: 50px; /* Membuat bentuk oval/pill */
+  border: 1px solid var(--border);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }

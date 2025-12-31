@@ -1,60 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <title>Japanese Learning Tools</title>
+  <title>Japanese Learning Tools | Jago Bahasa Jepang</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <header class="header">
-    <h1>Japanese Learning Tools</h1>
-    <p>Simple tools to practice Japanese effectively</p>
-    <p>Created by Arjawa</p>
+   <header class="header">
+    <div class="header-top">
+      <h1>Japanese Learning Tools</h1>
+      <button id="themeToggle" class="theme-btn">🌙</button>
+    </div>
+    <p>Kumpulan tool simpel biar latihan bahasa Jepangmu makin seru dan efektif!</p>
   </header>
 
   <main class="container">
 
     <div class="card">
       <div class="image skeleton">
-        <img src="/Analyser.jpg" alt="Text Analyser" />
+        <img src="Analyser.jpg" alt="Penganalisa Teks" />
       </div>
       <h2>JMDict Analyser</h2>
-      <p>Analyze Japanese text with tokenization and dictionary lookup.</p>
+      <p>Bingung baca kalimat panjang? Bedah teks Jepangmu, cari arti kata, dan pahami strukturnya dalam sekejap.</p>
         <div class="tags">
           <span class="tag">JavaScript</span>
           <span class="tag">kuromoji</span>
           <span class="tag">JMDict</span>
         </div>
-      <a class="btn" href="https://arjawa123.github.io/Text-Reader/">Open App</a>
+      <a class="btn" href="https://arjawa123.github.io/Text-Reader/">Coba Sekarang</a>
     </div>
 
     <div class="card">
       <div class="image skeleton">
-        <img src="/jft.jpg" alt="">
+        <img src="jft.jpg" alt="Simulasi JFT">
       </div>
-      <h2>JFT A2 Simulation</h2>
-      <p>Practice JFT A2 style questions with realistic simulation.</p>
-        <div class="tags">
+      <h2>Simulasi JFT A2</h2>
+      <p>Mau ujian JFT? Asah kemampuanmu dengan simulasi soal yang mirip aslinya. Persiapkan dirimu sampai pede!</p>
+      <div class="tags">
         <span class="tag">JavaScript</span>
         <span class="tag">JFT A2</span>
       </div>
-      <a class="btn" href="https://arjawa123.github.io/jfta2/">Open App</a>
+      <a class="btn" href="https://arjawa123.github.io/jfta2/">Mulai Latihan</a>
     </div>
 
     <div class="card">
+      <div class="image skeleton">
+        <img src="kaiwa.jpg" alt="Kartu Percakapan">
+      </div>
+      <h2>Kaiwa Flashcard</h2>
+      <p>Bingung mau ngobrol apa sama temen? Gunakan kartu topik ini biar sesi latihan Kaiwa-mu makin ngalir.</p>
+      <div class="tags">
+        <span class="tag">JavaScript</span>
+        <span class="tag">Kaiwa</span>
+      </div>
+      <a class="btn" href="https://arjawa123.github.io/kaiwa-cards/">Buka Kartu</a>
+    </div>
+    
+    <div class="card">
       <div class="image skeleton"></div>
-      <h2>Verb Conjugation Practice</h2>
-      <p>Train Japanese verb conjugations interactively.</p>
-      <a class="btn disabled">Coming Soon</a>
+      <h2>Latihan Konjugasi Kata Kerja</h2>
+      <p>Nggak perlu pusing lagi sama perubahan bentuk kata kerja. Tunggu tanggal mainnya, ya!</p>
+      <a class="btn disabled">Segera Hadir</a>
     </div>
 
   </main>
 
   <footer class="footer">
-    <p>© 2025 Japanese Tools Project</p>
+    <p>© Arjawa's Project | Semangat Belajarnya! ✨</p>
   </footer>
 
+  <script src="theme.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
